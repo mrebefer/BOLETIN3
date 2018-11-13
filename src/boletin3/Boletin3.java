@@ -7,9 +7,10 @@ public class Boletin3 {
         Consumo consume1 = new Consumo();
         //apartado b
         consume1.setLitros(50);
-        consume1.setPGas(1.57);
+        consume1.setPGas(1,57);
         //apartado c
-        Consumo consume2 = new Consumo(820, 51, 100, 1.33);
+        Consumo consume2 = new Consumo(820, 51, 100, (float) 1.33);
+        String consumoMedio = null;
         //apartado d
         System.out.println("O consumo medio é" +consumoMedio);
         //apartado e
